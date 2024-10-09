@@ -79,7 +79,6 @@ The application will be accessible at `http://localhost:3000`.
 ### Running with Docker Compose
 
 To run the application using Docker Compose, run the following:
-
     ```sh
     docker-compose up
     ```
