@@ -58,6 +58,7 @@ npm start
 ```
 ```sh
 nodemon index.js # in development
+node indes.js # normal mode
 ```
 
 ### Running with Docker
