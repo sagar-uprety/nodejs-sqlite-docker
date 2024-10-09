@@ -73,22 +73,25 @@ To run the application using Docker, follow these steps:
     ```sh
     docker run -p 3000:3000 nodejs-app
     ```
-
+3. Run the Docker container with .env file (with MySQL Credentials):
+    ```sh
+    docker run -p 3000:3000 --env-file .env nodejs-app
+    ```
 The application will be accessible at `http://localhost:3000`.
 
 ### Running with Docker Compose
 
-To run the application using Docker Compose, run the following:
+1. To run the application using Docker Compose, run the following:
     ```sh
     docker-compose up
     ```
 
-The application will be accessible at `http://localhost:3000`.
+    The application will be accessible at `http://localhost:3000`.
 
-To stop the application, use:
-```sh
-docker-compose down
-```
+2. To stop the application, use:
+    ```sh
+    docker-compose down
+    ```
 
 ## Contributing
 
